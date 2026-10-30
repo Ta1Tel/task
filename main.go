@@ -14,7 +14,7 @@ type User struct {
 func main() {
 	var users []*task.User
 
-	task.Add(&users, 1, "Иван", 25)
+	task.Add(&users, 1, "Иванв", 25)
 	task.Add(&users, 2, "Мария", 30)
 	task.Add(&users, 3, "Пётр", 22)
 
